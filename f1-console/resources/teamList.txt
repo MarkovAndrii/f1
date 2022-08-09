@@ -1,0 +1,10 @@
+t001,Red Bull,Christian Horner
+t002,Mercedes,Torger Wolff
+t003,Ferrari,Mattia Binotto
+t004,McLaren,Zak Brown
+t005,Alpine,Laurent Rossi
+t006,AlfaRomeo,Frederic Vasseur
+t007,Haas,Günther Steiner
+t008,AlphaTauri,Franz Tost
+t009,Aston Martin,Mike Krack
+t010,Williams,Jost Capito
