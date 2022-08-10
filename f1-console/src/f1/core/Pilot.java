@@ -6,7 +6,7 @@ public class Pilot {
 	private String pilotSurname;
 	private String pilotNation;
 	private String pilotAge;
-	private int dataOfJoiningTeam;
+	private int startDate;
 
 	public void setIdPilot(String ip) {
 		idPilot = ip;
@@ -18,9 +18,15 @@ public class Pilot {
 	public void setPilotName(String pn) {
 		pilotName = pn;
 	}
+	public String getPilotName() {
+		return pilotName;
+	}
 
 	public void setPilotSurname(String ps) {
 		pilotSurname = ps;
+	}
+	public String getPilotSurname() {
+		return pilotSurname;
 	}
 
 	public void setPilotNation(String pnat) {
@@ -31,7 +37,7 @@ public class Pilot {
 		pilotAge = pa;
 	}
 
-	public void setDataOfJoiningTeam(int dojt) {
-		dataOfJoiningTeam = dojt;
+	public void setStartDate(int sd) {
+		startDate = sd;
 	}
 }

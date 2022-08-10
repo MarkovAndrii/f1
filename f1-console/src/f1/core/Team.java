@@ -8,12 +8,16 @@ public class Team {
 	public void setIdTeam(String it) {
 		idTeam = it;
 	}
+
 	public String getIdTeam() {
 		return idTeam;
 	}
 
 	public void setTeamName(String tn) {
 		teamName = tn;
+	}
+	public String getTeamName() {
+		return teamName;
 	}
 
 	public void setSeo(String s) {

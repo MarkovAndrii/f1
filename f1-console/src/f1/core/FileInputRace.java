@@ -9,15 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileInputRace {
-	public static Race mapStringToRace(String raceSplit) { // метод mapStringToRace отделяет поля
-		String[] raceFields = raceSplit.split(",");
-		Race r = new Race();
-		r.setIdRace(raceFields[0]);
-		r.setGpName(raceFields[1]);
-		r.setTrackName(raceFields[2]);
-		r.setCountry(raceFields[3]);
-		r.setTrackLength(Integer.parseInt(raceFields[4]));
-		return r;
+	public static Race mapStringToRace(String stpSplit) { // метод mapStringToRace отделяет поля
+		String[] stpFields = stpSplit.split(",");
+		Race stp = new Race();
+		stp.setIdSeason(stpFields[0]);
+		stp.setIdTrack(stpFields[1]);
+		return stp;
 	}
 
 	public static List<Race> mapFileToRaceList(String pathToFile) { // метод mapFileToRaceList читает данние из
@@ -29,8 +26,8 @@ public class FileInputRace {
 			BufferedReader br = new BufferedReader(fr);
 			String line = br.readLine();
 			while (line != null) {
-				Race d = mapStringToRace(line);
-				alRace.add(d);
+				Race ee = mapStringToRace(line);
+				alRace.add(ee);
 				line = br.readLine();
 			}
 		} catch (FileNotFoundException e) {

@@ -17,7 +17,7 @@ public class FileInputPilot {
 		p.setPilotSurname(pilotFields[2]);
 		p.setPilotNation(pilotFields[3]);
 		p.setPilotAge(pilotFields[4]);
-		p.setDataOfJoiningTeam(Integer.parseInt(pilotFields[5]));
+		p.setStartDate(Integer.parseInt(pilotFields[5]));
 		return p;
 	}
 

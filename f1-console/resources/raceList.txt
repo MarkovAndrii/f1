@@ -1,5 +1,14 @@
-r001,Emilia Romagna Grand Prix,Autodromo Enzo e Dino Ferrari,Italy,4909
-r002,Miami Grand Prix,Miami International Autodrome,USA,5412
-r003,The Spanish Grand Prix,Circuit de Barcelona-Catalunya,Spain,4675
-r004,British Grand Prix,Silverstone Circuit,GreatBritain,5891
-r005,Austrian Grand Prix,Red Bull Ring,Austria,4318
+s001,r001
+s001,r004
+s001,r003
+s001,r002
+s001,r005
+s002,r003
+s002,r001
+s002,r005
+s002,r002
+s003,r001
+s003,r002
+s003,r003
+s003,r004
+s003,r005
