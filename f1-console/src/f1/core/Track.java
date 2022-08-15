@@ -11,6 +11,10 @@ public class Track {
 		idTrack = ir;
 	}
 
+	public String getIdTrack() {
+		return idTrack;
+	}
+
 	public void setGpName(String gpn) {
 		gpName = gpn;
 	}

@@ -32,11 +32,17 @@ public class Season {
 	public List<SeasonTeamPilot> getSTPList() {
 		return stpList;
 	}
+
 	public void setRaceList(List<Race> raceL) {
 		raceList = raceL;
 	}
 
-	public static List<SeasonTeamPilot> findSeasonSTP(String idS, List<SeasonTeamPilot> sL) { // находим соотв.значения IdSeason
+	public List<Race> getRaceList() {
+		return raceList;
+	}
+
+	public static List<SeasonTeamPilot> findSeasonSTP(String idS, List<SeasonTeamPilot> sL) { // находим соотв.значения
+																								// IdSeason
 		List<SeasonTeamPilot> resList = new ArrayList<SeasonTeamPilot>();
 		for (SeasonTeamPilot elem : sL) { // перебираем все елементи из SeasonTeamPilot в списке sL
 			if (elem.getIdSeason().equals(idS)) { // сравниваем знач.IdSeason у SeasonTeamPilot со
